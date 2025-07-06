@@ -1,0 +1,15 @@
+{"time":"2025-06-25T14:06:16.6413157+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"C:\\Users\\firas\\Doctor-BenAmeur\\Finetuning\\wandb\\run-20250625_140614-zrrab1ik\\logs\\debug-core.log"}
+{"time":"2025-06-25T14:06:19.601763+01:00","level":"INFO","msg":"stream: created new stream","id":"zrrab1ik"}
+{"time":"2025-06-25T14:06:19.6022713+01:00","level":"INFO","msg":"stream: started","id":"zrrab1ik"}
+{"time":"2025-06-25T14:06:19.6022713+01:00","level":"INFO","msg":"handler: started","stream_id":"zrrab1ik"}
+{"time":"2025-06-25T14:06:19.6022713+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"zrrab1ik"}
+{"time":"2025-06-25T14:06:19.6022713+01:00","level":"INFO","msg":"sender: started","stream_id":"zrrab1ik"}
+{"time":"2025-06-25T14:06:20.0507467+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-25T14:32:49.2672367+01:00","level":"INFO","msg":"stream: closing","id":"zrrab1ik"}
+{"time":"2025-06-25T14:32:49.269323+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-25T14:32:49.2857707+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-25T14:32:50.1010293+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-25T14:32:50.4739084+01:00","level":"INFO","msg":"sender: closed","stream_id":"zrrab1ik"}
+{"time":"2025-06-25T14:32:50.4739084+01:00","level":"INFO","msg":"handler: closed","stream_id":"zrrab1ik"}
+{"time":"2025-06-25T14:32:50.4739084+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zrrab1ik"}
+{"time":"2025-06-25T14:32:50.5830208+01:00","level":"INFO","msg":"stream: closed","id":"zrrab1ik"}

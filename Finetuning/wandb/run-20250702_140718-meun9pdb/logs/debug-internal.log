@@ -1,0 +1,15 @@
+{"time":"2025-07-02T14:07:18.8131063+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"C:\\Users\\firas\\Doctor-BenAmeur\\Finetuning\\wandb\\run-20250702_140718-meun9pdb\\logs\\debug-core.log"}
+{"time":"2025-07-02T14:07:19.4239995+01:00","level":"INFO","msg":"stream: created new stream","id":"meun9pdb"}
+{"time":"2025-07-02T14:07:19.424519+01:00","level":"INFO","msg":"stream: started","id":"meun9pdb"}
+{"time":"2025-07-02T14:07:19.424519+01:00","level":"INFO","msg":"handler: started","stream_id":"meun9pdb"}
+{"time":"2025-07-02T14:07:19.424519+01:00","level":"INFO","msg":"sender: started","stream_id":"meun9pdb"}
+{"time":"2025-07-02T14:07:19.424519+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"meun9pdb"}
+{"time":"2025-07-02T14:07:19.8540684+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-02T14:07:44.0881595+01:00","level":"INFO","msg":"stream: closing","id":"meun9pdb"}
+{"time":"2025-07-02T14:07:44.0887064+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-02T14:07:44.0887064+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-02T14:07:44.5526878+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-02T14:07:44.8419519+01:00","level":"INFO","msg":"sender: closed","stream_id":"meun9pdb"}
+{"time":"2025-07-02T14:07:44.8419519+01:00","level":"INFO","msg":"handler: closed","stream_id":"meun9pdb"}
+{"time":"2025-07-02T14:07:44.8419519+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"meun9pdb"}
+{"time":"2025-07-02T14:07:44.842532+01:00","level":"INFO","msg":"stream: closed","id":"meun9pdb"}

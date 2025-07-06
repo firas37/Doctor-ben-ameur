@@ -1,0 +1,49 @@
+_wandb:
+    value:
+        cli_version: 0.20.1
+        m: []
+        python_version: 3.12.8
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 51
+                - 53
+                - 71
+                - 84
+                - 95
+                - 98
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 51
+                - 53
+                - 71
+                - 84
+                - 95
+                - 98
+            "3":
+                - 13
+                - 16
+                - 55
+            "4": 3.12.8
+            "5": 0.20.1
+            "6": 4.53.0
+            "8":
+                - 3
+            "12": 0.20.1
+            "13": windows-amd64
+dataset_path:
+    value: medical_dialogue_dataset
+load_in_4bit:
+    value: true
+max_seq_length:
+    value: 2048
+model_name:
+    value: unsloth/llama-3-8b-bnb-4bit

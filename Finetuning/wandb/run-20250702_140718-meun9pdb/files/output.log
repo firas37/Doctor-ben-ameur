@@ -1,0 +1,24 @@
+WandB initialized: medical-llama3-20250702-140717
+Loading model: unsloth/llama-3-8b-bnb-4bit
+C:\Users\firas\Doctor-BenAmeur\.venv\Lib\site-packages\unsloth_zoo\gradient_checkpointing.py:341: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\c10/cuda/CUDAAllocatorConfig.h:28.)
+  GPU_BUFFERS = tuple([torch.empty(2*256*2048, dtype = dtype, device = f"{DEVICE_TYPE}:{i}") for i in range(n_gpus)])
+==((====))==  Unsloth 2025.6.4: Fast Llama patching. Transformers: 4.52.4.
+   \\   /|    NVIDIA GeForce GTX 1660 Ti. Num GPUs = 1. Max memory: 6.0 GB. Platform: Windows.
+O^O/ \_/ \    Torch: 2.5.1+cu121. CUDA: 7.5. CUDA Toolkit: 12.1. Triton: 3.3.1
+\        /    Bfloat16 = FALSE. FA [Xformers = None. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+Unsloth 2025.6.4 patched 32 layers with 32 QKV layers, 32 O layers and 32 MLP layers.
+Model and tokenizer loaded successfully!
+Loading dataset from: medical_dialogue_dataset
+Dataset loaded: 9998 examples
+Dataset features: {'instruction': Value(dtype='string', id=None), 'input': Value(dtype='string', id=None), 'output': Value(dtype='string', id=None), 'conversation': Value(dtype='string', id=None)}
+Traceback (most recent call last):
+  File "C:\Users\firas\Doctor-BenAmeur\Finetuning\finetune_llama3.py", line 270, in <module>
+    main()
+  File "C:\Users\firas\Doctor-BenAmeur\Finetuning\finetune_llama3.py", line 244, in main
+    finetuner.setup_training_arguments(
+  File "C:\Users\firas\Doctor-BenAmeur\Finetuning\finetune_llama3.py", line 123, in setup_training_arguments
+    self.training_args = TrainingArguments(
+                         ^^^^^^^^^^^^^^^^^^
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
